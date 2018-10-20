@@ -39,6 +39,6 @@ All listeners receive a single response, a `Mail` object. This is simply the ema
 
 ## Socket
 
-If you need access to mails from non-JS code (or you don't want to use `SMTPClient`), you can instead listen to the UNIX/Windows socket (default UNIX location: `/tmp/app.simple-smtp-listener`).
+If you need access to mails from non-JS code (or you don't want to use `SMTPClient`), you can instead listen to the UNIX/Windows socket (default UNIX location: `/tmp/app.smtp-listener`).
 
 The server emits emails as UTF8-encoded JSON to all clients, using [`node-ipc`](https://github.com/RIAEvangelist/node-ipc).
